@@ -8,8 +8,9 @@ from datetime import datetime
 # ---------------------------
 # Firebase Configuration
 # ---------------------------
-FIREBASE_CERT_FILE = "C:/Users/Abdullah/Downloads/trolly/em18-14e52-firebase-adminsdk-fbsvc-5be7ae7d8b.json"
-DATABASE_URL = "https://em18-14e52-default-rtdb.asia-southeast1.firebasedatabase.app/"
+
+FIREBASE_CERT_FILE = "/path/to/your/firebase-adminsdk.json"
+DATABASE_URL = "https://your-project-id.firebaseio.com/"
 
 if not firebase_admin._apps:
     cred = credentials.Certificate(FIREBASE_CERT_FILE)
