@@ -17,8 +17,8 @@ const char* ssid = "IUB Guest";
 const char* password = "IUBGuest";
 
 // Firebase Config
-const String FIREBASE_HOST = "https://em18-14e52-default-rtdb.asia-southeast1.firebasedatabase.app/";
-const String FIREBASE_AUTH = "vt6r5n2r9H5VQnCSAbEmrzraXEmG5YSTc1RO0uuD";
+const String FIREBASE_HOST = "https://<your-project>.firebaseio.com/";
+const String FIREBASE_AUTH = "<your-database-secret>";
 
 #define RXD2 16
 #define TXD2 17
