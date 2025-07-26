@@ -13,8 +13,8 @@
 Adafruit_SH1106G display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // WiFi Credentials
-const char* ssid = "IUB Guest";
-const char* password = "IUBGuest";
+const char* ssid = "IUB";
+const char* password = "12345";
 
 // Firebase Config
 const String FIREBASE_HOST = "https://<your-project>.firebaseio.com/";
